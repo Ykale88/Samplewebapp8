@@ -7,10 +7,10 @@ on:
   pull_request:
     branches:
       - '*'
-env: sample
-  WEBAPP_NAME: sample-net-app-kasun    # Azure Web App Name
-  WEBAPP_PACKAGE_PATH: '.'      # Project Path Location default to root(.)
-  NUGET_VERSION: '5.3.1'           # dot net version to use
+env: samplewebapp8
+  WEBAPP_NAME: sample-net-app-kasun
+  WEBAPP_PACKAGE_PATH: '.'      
+  NUGET_VERSION: '5.3.1'          
 
 jobs:
   build-and-deploy:
